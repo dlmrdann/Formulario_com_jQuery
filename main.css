@@ -9,11 +9,6 @@ html {
     overflow-x: hidden;
 }
 
-body {
-    max-width: 1480px;
-    width: 100%;
-}
-
 header {
     background-color: brown;
     padding-top: 16px;
@@ -26,6 +21,10 @@ header {
     width: 100%;
     margin: 0 auto;
     margin-left: 100px;
+}
+
+.form-campo {
+    margin-top: 16px;
 }
 
 .form-campo label {
@@ -47,21 +46,26 @@ form {
 button {
     display: block;
     width: 100%;
-    max-width: 400px;
+    max-width: 360px;
     padding: 8px 0;
     background-color: #119759;
     color: #fff;
     font-weight: bold;
     font-style: italic;
-    border-radius: 6px;
     border: none;
     cursor: pointer;
 }
 
-form button {
-    max-width: 120px;
+button:hover {
+    background-color: #50cb90;
+}
+
+.botao-enviar {
+    margin-top: 10px;
+    margin-bottom: 40px;
+
 }
 
 section {
-    padding-top: 40px;
+    padding-top: 16px;
 }
